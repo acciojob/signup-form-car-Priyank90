@@ -8,35 +8,32 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form action="">
-		<label for="name" >Name:
-           <input type="text" id="name" value="Priyank Patel" required>
-		</label><br>
-		<label for="email" >Email:
-			<input type="email" id="email" value="priyank@gmail.com" required>
-		 </label><br>
-		 <label for="gender" >Gender:
-			<input type="radio" name="gender"  required>Male
-			<input type="radio" name="gender" required>Female
-
-		 </label><br>
-		 <label for="cars">Car Brands:
-		 <select id="cars">
-			<option value="BMW" id="cars">BMW</option>
-			<option value="Audi" id="cars">Audi</option>
-			<option value="Mercedez" id="cars">Mercedez</option>
-		 </select>
-		</label><br>
-		<label for="age" >Name:
-			<input type="number" id="age" value="19" required>
-		 </label><br>
-		 <label for="dob" >DOB:
-			<input type="date" id="dob" value="13/28/2002" required>
-		 </label><br>
-		 <label for="password" >Password:
-			<input type="password" id="password" value="Priyankk" required>
-		 </label><br>
+	<form action="mail to:priyank9027@gmail.com" method="post">
+		<label for="name" >Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+		<label for="email" >Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		 <label for="gender" >Gender: </label>
+			<input type="radio" name="gender" id="gender" value="M" required>Male
+			<input type="radio" name="gender" id="gender" value="f" required>Female <br><br>
+		
+		 <label for="cars">Car Brands:</label>
+		 <select name="carbrands" id="cars">
+			<option value="BMW" >BMW</option>
+			<option value="Audi" >Audi</option>
+			<option value="Mercedez" >Mercedez</option>
+		 </select><br><br>
+		
+		<label for="age" >Name:</label>
+			<input type="number" name="age" id="age" required><br><br>
 		 
+		 <label for="dob" >DOB:</label>
+			<input type="date" id="dob" name="dob" required><br><br>
+		 
+		 <label for="password" >Password:</label>
+			<input type="password" id="password" name="pwd" required><br><br>
+		
+
 		 <button type="submit">submit button</button>
 
 	</form>
